@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mad for Garlic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/comm.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <!-- header -->
+    <div class="header">
+      <h1>
+        <a href="#"><img src="imgs/logoB.png"></a>
+      </h1>
+      <div class="main_img">
+        <img src="imgs/main1.jpg" alt="메인이미지1">
+        <img src="imgs/logoB_B.png" alt="logo" class="img_logo">
+      </div>
+      <ul class="menu_depth1">
+        <li>
+          <a href="#">BRAND</a>
+        </li>
+        <li>
+          <a href="#">MENU</a>
+        </li>
+        <li>
+          <a href="#">SRORE</a>
+        </li>
+        <li>
+          <a href="#">MEMBERSHIP</a>
+        </li>
+        <li>
+          <a href="#">EVENT</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="imgs/slide1.jpg"></div>
+        <div class="swiper-slide"><img src="imgs/slide4.jpg"></div>
+        <div class="swiper-slide"><img src="imgs/slide5.jpg"></div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Arrows -->
+      <!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+
+    </script>
+
+    <!-- contents -->
+    <div class="content">
+      <!-- area -->
+      <div class="section_area">
+        <h2 class="blind">introduce</h2>
+        <p>REATIVE MENU WITH AN EMOTIONAL THEME <br> AND A TASTE OF GARLIC,<br> WHERE YOU CAN ENJOY A PAIRED WINE. <br> IT IS.
+        </p>
+      </div>
+      <!--// area -->
+
+      <!-- 제품 -->
+      <div class="section_product">
+        <h2 class="blind">제품</h2>
+        <ul class="list_product">
+          <li class="go_brand">
+            <a href="#"><img src="imgs/brand.jpg" alt=""></a>
+          </li>
+          <li class="go_menu">
+            <a href="#"><img src="imgs/menu.jpg" alt=""></a>
+          </li>
+          <li class="go_store">
+            <a href="#"><img src="imgs/store.png" alt=""></a>
+          </li>
+        </ul>
+      </div>
+      <!-- //제품 -->
+
+      <!-- 바로가기 -->
+      <div class="section_go">
+        <h2 class="tit_go">SERVICE</h2>
+        <ul class="list_go">
+          <li>
+            <a href="#"><img src="imgs/event_icon.jpg" width="80" height="84" alt="이벤트"><br>EVENT
+                 </a>
+          </li>
+          <li>
+            <a href="#"><img src="imgs/membership_icon.jpg" width="100" height="84" alt="멤버쉽"><br>MEMBERSHIP</a>
+          </li>
+          <li>
+            <a href="#"><img src="imgs/custober_icon.jpg" width="80" height="70" alt="고객센타"><br>CUSTERMER</a>
+          </li>
+        </ul>
+      </div>
+      <!-- //바로가기 -->
+
+      <!--마늘소개 -->
+      <div class="section_effect">
+        <h2 class="blind">garlic</h2>
+        <div class="garlic_img">
+          <a href="#"><img src="imgs/main2.png" alt=""></a>
+        </div>
+      </div>
+      <!-- //마늘소개 -->
+      <!-- //contents -->
+    </div>
+    <!-- 푸터 -->
+    <div class="footer_wrap">
+      <div class="footer">
+        <div class="foot_menu">
+          <a href="#">privacy policy</a>
+          <span>|</span>
+          <a href="#">teams of service</a>
+          <span>|</span>
+          <a href="#">customer</a>
+          <span>|</span>
+          <a href="#">recruit</a>
+          <span>|</span>
+        </div>
+        <address>서울특별시 강남구 압구정로 222(신사동) ㈜엠에프지코리아<br>
+                     COPYRIGHT ⓒ MFGKOREA ALL RIGHTS RESERVED.
+       </address>
+        <div class="sns">
+          <ul>
+            <li><a href="#"><i class="fa fa-instagram" style="font-size:40px;color:white"></i></a>
+            </li>
+            <li><a href="#"><i class="fa fa-youtube-play" style="font-size:40px;color:white"></i></a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <!-- //푸터 -->
+  </div>
+</body>
+
+</html>
