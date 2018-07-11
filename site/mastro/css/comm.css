@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-*{
+* {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -11,20 +11,21 @@
 }
 
 /*layout*/
-.wrap{
+
+.wrap {
   position: relative;
   width: 1200px;
   margin: 0 auto;
 }
 
-.header{
+.header {
   padding-top: 50px;
   height: 100px;
 }
 
-.main_slide{
+.main_slide {
   height: 500px;
-  position: relative;    
+  position: relative;
 }
 
 .contents {
@@ -43,25 +44,30 @@
 
 /*layout*/
 
-.menu_depth1{
+h1 {
+  float: left;
+}
+
+.menu_depth1 {
   padding-top: 15px;
   float: right;
 }
 
-.menu_depth1 a{
+.menu_depth1 a {
   display: block;
   width: 230px;
   height: 30px;
   text-align: center;
 }
 
-.menu_depth1>li{
+.menu_depth1 > li {
   position: relative;
   float: left;
 }
 
 
-.menu_depth2{
+.menu_depth2 {
+  display: none;
   position: absolute;
   top: 30px;
   left: 0;
@@ -69,18 +75,18 @@
 }
 
 
-.main_slide ul{
+.main_slide ul {
   float: right;
 }
 
-.main_slide .big{
+.main_slide .big {
   display: none;
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.main_slide .small{
+.main_slide .small {
   opacity: 0.5;
 }
 
@@ -89,46 +95,46 @@
   padding-bottom: 10px;
 }
 
-.col1{
+.col1 {
   float: left;
   width: 500px;
 }
 
-.col1 li{
+.col1 li {
   margin-bottom: 10px;
 }
-  
-.col2{
+
+.col2 {
   margin: 0 50px;
   float: left;
   width: 200px;
 }
 
-.col2 a{
+.col2 a {
   display: block;
 }
 
-.col2 li img{
+.col2 li img {
   margin: 0 10px 0 10px;
   vertical-align: middle;
 }
 
-.col3{
+.col3 {
   float: left;
   width: 400px;
 }
 
-.col3 a{
+.col3 a {
   filter: grayscale(100%);
   transition: all 0.5s;
 }
 
-.col3 a:hover{
+.col3 a:hover {
   filter: grayscale(0);
 }
 
-.footer a{
-   font-weight: bold;
+.footer a {
+  font-weight: bold;
 }
 
 .footer address {
@@ -137,23 +143,21 @@
   font-size: 12px;
 }
 
-#modal{
+#modal {
   display: none;
   position: absolute;
   bottom: 250px;
   right: 0;
 }
 
-#modal button{
-/*  background: #eee;*/
+#modal button {
+  /*  background: #eee;*/
   border: none;
   padding: 5px;
   border-radius: 5px;
   font-weight: bold;
 }
 
-#modal.on{
+#modal.on {
   display: block;
 }
-
-
